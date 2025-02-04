@@ -1,0 +1,22 @@
+h2{
+    display: inline;
+    background-color: rgb(144, 188, 226);
+}
+
+div{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(116, 179, 156);
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+span{
+    height: 100px;
+    width: 200px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}

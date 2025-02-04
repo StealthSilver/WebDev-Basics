@@ -1,0 +1,113 @@
+HTML -> Hyper Text Markup Language
+used for presentation and formatting. It makes the skeleton of the website.
+
+HTML elements
+
+Standard elements that browser recoganizes
+
+1. Paragraph
+2. Heading
+3. Image
+
+these are HTMl tags, they are like containers
+<p> This is a paragraph </p> 
+
+when text and tags are combined they form the HTMl element.
+
+
+
+Paragraph tag
+all the information in the paragraph tag is shown in the same line
+
+Heading tag
+there are 6 heading tags with decreasing size
+
+02.html
+HTML boilerplate code
+
+there is a heiarchy in the HTMl boiler plate. 
+HTML -> HEAD -> BODY
+
+the HTML is the default parent tag.
+
+the head tag contains the metadata, it contains all the files linked with the files
+
+the body tag contains all the code present on the web page
+
+> to generate the boiler plate in the VS code, we can use emmets, by pressing the ! key
+
+<!DOCTYPE html>   (default HTMl doc)
+<html lang="en">  (tells the primary language)
+<head>
+    <meta charset="UTF-8">                                                       (UTF-8 is the encoding)
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">       (default sizing is mentioned)
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+> indentation is not important in HTML but very important in Python
+
+
+03.html
+List tag
+
+there are two types of lists
+
+1. Ordered List <ol>
+2. Unordered list <ul>
+
+
+Attributes : Attributes are used to more information to a tag
+e.g. <ol type = "a">
+
+
+04.html
+Anchor element
+this tag is used to add links to the HTML page
+
+href -> hyperlink refrence, this is the attribute which conatins the address of the link
+in the href two kinds of links can be added: 
+
+1. relative link: connecting a file in the local system
+2. absolute link: connecting the prehosted web page on the internet
+
+05.html
+Image element
+
+it is an single tag. There is no closing tag.
+the attributes are, 
+
+1. src -> source of the Image, we can add both relative and absolute links
+2. alt -> what text we can show in place of the image
+
+3. height
+4. width 
+
+06.html
+br -> line break tag
+
+b -> bold tag
+i -> italic tag
+u -> underline tag
+
+comment in HTML are written as <!-- This will be a comment -->
+
+MDN -> this is a useful goto wbsite for HTMl, CSS and JS
+
+HTML is not a case sensitive language
+
+HTML entities are the special characters which are used to make general symbols appear, which are restricted due to 
+being part of the HTMl syntax, e.g.  >, <, &hearts;
+
+< &lt;
+> &gt;
+[space] &nbsp; -> non breaking space, as more than one spaces are not allowed in HTML
+[heart] &heart;
+& &amp;
+" &quot;
+
+the browsers render the entities by their own

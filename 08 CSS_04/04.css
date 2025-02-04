@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(101, 137, 125);
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black;
+}
+
+.image{
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    background-image: url("background.jpg");
+    background-size: contain;
+    color: white;
+}
+
+.image2{
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.image3{
+    width: 500px;
+    height: 400px;
+    margin: 10px auto;
+    background-image: url("background.jpg");
+    background-size: auto;
+}

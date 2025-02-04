@@ -1,0 +1,193 @@
+Java Script is used to add functionality in the website
+it is a programming language unlike HTML and CSS which are markup languages
+Js is a case sensitive language
+
+Using REPL -> Read Evaluate Print Loop
+we can use it in the console of any browser
+we cannot save the code in the console
+
+
+command + K -> clear the console window
+
+VARIABLE 
+
+a variable is simply the name if a storage location
+the variables are stored in the computer memory
+we can retrive them or use them for other calculations
+
+DATA TYPES IN JS
+
+Primitive Types
+
+1. Number
+2. Boolean
+3. String
+4. Undefined
+5. Null
+6. Bigint
+7. Symbol
+
+typeof() this operator is used to check the data type of an operator
+
+NUMBERS IN JS
+
+they can be positive and negative numbers and also floating numbers
+JS detects the type of the variable automatically, we need not specify, unlike C, C++ and Java
+
+there is a limit to the memory of number data type in JS
+as a = 0.999999999 is valid but 0.99999999999999999 becomes 1 automatically
+
+
+OPERATIONS IN JS
+
+addition a + b
+
+subtraction  a - b
+
+multiplication a*b 
+
+division a/b 
+
+modulo a%b -> this gives the remainder when a is divided by b
+used to detect odd and even numbers (n % 2 = 1 is an odd number , n % 2 = 0 is an even number)
+
+exponent a ** b -> a to the power of b
+
+
+NaN -> Not a Number, this is a value in JS which represents not a number
+
+e.g. 0/0 , NaN - 1,  NaN + 1
+the data type of NaN is number 
+
+but 1/0 in Js is infinity and its data type is also Number
+
+OPERATOR PRECEDENCE
+
+the general order of slving an expression 
+
+1. ()
+2. **
+3. * , / , %
+4. + , -
+
+for checking we go from left to right
+
+LET CONST AND VAR KEYWORDS
+
+these are the syntax for creating variables
+
+let a = 45;
+
+let num1 = 3;
+let num2 = 9;
+
+let sum = num2 - num1;
+
+the semicolon represents that the line is complete in JS
+
+we can also define variables without the starting value
+e.g. let b;
+
+const is used to create the constant values Types
+these values cannot be updated or reassigned
+
+
+var was used in JS before let 
+
+it can be used in place of let
+
+ASSIGNMENT OPERATOR
+
+age = age + 1
+age += 1
+
+age = age - 1
+age -= 1
+
+age = age * 1
+age *= 1
+
+age /= n
+age = age / n
+
+age %= 7
+age = age % 7
+
+URARY OPERATOR
+
+age = age + 1
+age += 1
+age ++ this is the unary operator , increment
+
+age = age - 1
+age -= 1
+age -- this is the unary operator , decrement
+
+++a is the pre increment operator -> here the value is first updated and then stored
+a++ is the post increment operator -> here the value is stored and then updated
+
+IDENTIFIER RULES
+
+the variables in JS must have new names there are rules:
+1. Names can contain letters , digits , underscores , and dollar signs. (no spaces allowed)
+2. Names must begin with a letter
+3. Names can also begin with $ and _ 
+4. Names are case sensitive (y and Y are different variables)
+5. Reserved words (like JS keywords) cannot be used as names
+6. Try to make the names meaningful
+
+there are different cases
+
+a. camelCase (JS naming convention)
+b. snake_case
+c. PascalCase
+
+BOOLEAN
+
+true and false values
+
+we can change the type of the variable in js, it is not type strict
+
+TYPESCRIPT
+
+it is designed by Microsoft
+
+JS id dynamically typed language but Typescript is statically types.
+the type of the data cannot be changed
+
+STRING 
+Strings are text or sequence of characters
+
+let name = "Tony Stark"
+
+single characters, numbers can also be strings, they just need to be in quotes
+empty string can also be a string
+
+we can use both single and double quotes
+
+STRING INDICES
+
+TONY STARK 
+0123456789 -> these are the positional indices of the string above (0 based indexing)
+
+we can access the characters form the string
+name[0] -> T
+name[3] -> Y
+
+name.length -> this is a property to access the leng=th of the string
+to check the last index -> name[name.length - 1]
+
+concatination -> joining strings
+
+NULL AND UNDEFINED IN JS
+
+undefined -> a variable that has not been assigned a value is of undefined type
+
+let a , typeof(a) = undefined
+
+null -> the null value represents the intentional absence of any object value
+
+to be explicitly assigned
+
+let a = null;
+this is used for the initializing when the value for a is absent, the data type of null is object

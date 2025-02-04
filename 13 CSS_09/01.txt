@@ -1,0 +1,53 @@
+Bootstrap 
+
+it is a component library for CSS which contains maximum CSS components like forms, buttons, flexboxes with proper styling
+it runs on the concept of flexbox 
+
+it makes the development faster, browser compatibility is high, components are responsive
+
+CDN -> content delivery network -> it delivers content from server to the client fast
+
+
+01.html 
+
+whichever link in the after in the head tag that will override the other
+use the js cdn link in the script tag
+
+Bootstrap has:
+
+1. Components -> pre-built and reusable piece of UI e.g. button , forms
+2. Layout -> overall structure and arrangement of the elements e.g. container, grid
+
+1. Container Layout
+
+here the margins, size, weight, and font family changes
+different types of containers are there according to the responsiveness
+
+2. Button Component
+
+there are different button components
+we can change inputs and anchor tags into buttons also
+
+3. Badge Component
+
+these are there for secondary notifications
+
+4. Alert Component
+
+for alerts in from of div
+
+5. Button group
+
+grouping buttons
+
+02.html
+
+1. Navbar Component
+
+2. card component
+
+3. Grid Layout -> works on the 12 unit system 
+
+03.html
+
+1. form component

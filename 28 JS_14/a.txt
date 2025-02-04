@@ -1,0 +1,15 @@
+01.js
+
+ASYNC AND AWAIT KEYWORDS
+
+ASYNC -> creates a async function, they return a promise by default
+
+02.js  , 03.js
+
+AWAIT -> pauses the execution of its surrounding async function until teh promise is settled (resolved or rejected)
+
+
+04.js 
+
+HANDLING REJECTIONS
+

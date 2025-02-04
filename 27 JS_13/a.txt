@@ -1,0 +1,71 @@
+01.js, 02.js
+
+CALL STACK
+
+stack is a vertical data structure which has layers
+LIFO -> this is the last in - first out
+
+
+
+BREAKPOINTS
+
+we can stop the code in between to check the call stack
+
+in the inspect window-> sources -> 03.js -> click on number to add breakpoint
+
+03.js
+
+JS is single threaded
+
+Single threaded language -> only one thing is executed at single time, the CPU memory does not divides
+Multi threaded language -> the CPU memory gets divided and then multiple processes run simontaneously
+
+all the set timeout functions are executed in the browser and tehy are written in C++ so there the callback delay is stored and executed.
+
+when the events happen one by one this is called synchronous programming
+
+when the events happen without the sequence then this is called asynchronous programming
+
+
+04.js
+
+CALLBACK HELL
+
+nesting of callbacks -> they work but it is not th ebest way to write your code
+
+to get rid of it we use 
+
+1. promises
+2. async await
+
+
+05.js
+
+PROMISES 
+
+the promise object represents the eventual completion or faliure of an asynchronous operation and its resulting value
+
+Promises -> object
+
+
+06.js
+
+Resolve & Reject
+
+then() and catch()
+
+07.js
+
+Promise chaining
+
+using multiple thens for making a chain of promises
+
+
+08.js
+
+promises are rejected and resolved with some data (valid results or errors)
+
+09.js
+
+applying promises to the callback Hell 
+

@@ -1,0 +1,51 @@
+Designing Principles
+
+Color theory
+
+the meaning associated with the color palette on the website
+
+subtle color combination -> monocromatic palette
+
+impactful color combination -> complementy colors
+
+high contrast combination -> triadic
+
+Typography
+
+style and appearence of text
+
+1. sans-serif
+2. serif
+3. monospace
+4. cursive
+5. fantasy
+
+max 2 fonts in one section
+
+
+01.html
+
+Google fonts
+
+https://fonts.google.com 
+to get the fonts free from the library of 1513 fonts
+
+here we can select the font and then we can preconnect with the website to get the font
+
+
+Icons
+
+to get free icons, google icons and font awesome
+
+from google icons we have to get the stylesheet link and preconnect
+
+for font awesome do to cdn font awesome and then we can use the names for the icons to use them
+
+01_practice.html
+
+~ this is used for the decendent selector
+
+to make a working sidebar , we have to make a checkbox and make its display none
+then we have to make two labels by one hamburger and one cross
+
+then we have to associate the position of the sidebar with the labels and make them appear and dissapear with the CSS checked property

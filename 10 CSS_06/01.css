@@ -1,0 +1,287 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+}
+
+.container div  {
+    width:100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container2{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: (repeat(2,1fr));
+    grid-template-columns: 2fr 1fr 2fr 2fr;
+    margin: 20px;
+    grid-gap: 20px 10px;
+}
+
+.container2 div  {
+    width:100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container3 {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+
+    row-gap: 10px;
+    column-gap: 20px;
+    
+}
+
+.container3 div{
+    width:100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container4 {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+}
+
+.container4 div{
+    /* width:200px;
+    height: 50px; */
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-column: 1/3; */
+    /* grid-column: 1 span2 */
+}
+
+.container5 {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+}
+
+.container5 div{
+    /* width:200px;
+    height: 50px; */
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#one1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* grid-row: 1/3; */
+    /* grid-row: 1 span2 */
+}
+
+.container6{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+    grid-gap: 10px;
+    justify-items: start;
+
+}
+
+.container6 div  {
+    width:40px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container7{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+    grid-gap: 10px;
+    justify-items: end;
+}
+
+.container7 div  {
+    width:40px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+#two{
+    justify-self: start;
+    align-self: center;
+}
+
+.container8{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+    grid-gap: 10px;
+    justify-items: center;  
+}
+
+.container8 div  {
+    width:40px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+
+.container9{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+    grid-gap: 10px;
+    align-items: start;  
+}
+
+.container9 div  {
+    width:40px;
+    height: 30px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.container10{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+    grid-gap: 10px;
+    align-items: center;  
+}
+
+.container10 div  {
+    width:40px;
+    height: 30px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+
+.container11{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+    grid-gap: 10px;
+    align-items: end;  
+}
+
+.container11 div  {
+    width:40px;
+    height: 30px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+
+.container12{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 215, 83);
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+    grid-gap: 10px;
+    place-items: center; 
+}
+
+.container12 div  {
+    width:40px;
+    height: 30px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+
+.container13{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 215, 83);
+    display: inline-grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px 100px ;
+    margin: 20px;
+    grid-gap: 10px;
+    place-items: center; 
+}
+
+.container13 div  {
+    width:40px;
+    height: 30px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+

@@ -1,0 +1,124 @@
+STRING METHODS
+
+methods : actions that can be performed on objects
+
+Format 
+
+stringName.method()
+
+1. str.trim() -> trims whitespaces from both ends of the string
+here a new string is formed which is the trimmed string, the old string is same
+
+Strimgs are immutable in JS, No changes can be made to strings.
+Whenever we do try to make a change, a new string is created and old one remains same.
+
+2. str.toUpperCase() -> "RANDOM STRING"
+3. str.toLowerCase() -> "random string"
+
+both these methods create a new string
+
+STRING METHODS WITH ARGUMENTS
+
+argument is some value that we pass to the method
+
+stringName.method(arg)
+
+1. indexOf -> returns the first index of hte occurance of some value in the string. if the value is not present gives -1
+
+Method Chaining -> adding multiple methods to a string
+
+
+SLICE METHOD
+
+returns a part of the original string as a new string
+
+str = "MoveCoding"
+
+str.slice(1,5) -> oveC
+
+subString method works same as the slice method
+
+REPLACE METHOD
+
+searches a value in the string and returns a new string with the replaces value
+there are no changes in the old string
+
+it will only replace the first occurance, it si used in (regular expressions)
+
+REPEAT
+
+Returns a string with the number of copies of a string
+
+
+02.JS
+
+ARRAYS
+
+Linear collection of things -> it is a linear data structure
+
+the indexes in array start from 0
+
+the typeof(array) is object
+
+we can store different type of data in a single array
+
+we can also create an empty array -> its length will be 0
+
+Arrays are mutable -> they can be changed
+
+
+ARRAY METHODDS
+
+PUSH -> add to ends
+UNSHIFT-> add to start
+POP -> delete from end and return it
+SHIFT -> delete from start and return it
+
+in other languages push and pop are present in stack
+
+
+03.JS
+
+INDEXOF -> returns the index of something
+
+INCLUDES -> searches for a value and returns a boolean
+
+
+CONCAT -> merges two Arrays
+the concatinated array is a new array, the old arrays do not change.
+
+REVERSE -> reverses an array
+this chnages hte original array also, it reverses it
+
+SLICE-> opiea a portion af an array
+if we write an invalid number than an empty array is returned
+
+SPLICE -> removes / replaces / add elements in place
+
+splice(start , deleteCont , item0 ... itemN)
+
+it changes the original array
+
+SORT : sorts an array in ascending or descending order
+
+it works fine on strings, but for numbers it converts them into strings and then d=sort them so there is a unorderly fashion there
+
+ARRAY REFRENCES
+
+refrences means address in memory.
+we can compare the arrays based on their addresses in memory
+
+whenever an array is created then a refrence variable is created, that refrence variable knows the address of the array. 
+the refrence variable stores the address in memory
+
+comparing two arrays give false then the addresses are compared so they give false
+
+CONSTANT ARRAYS
+
+const arr = [1,2,3,4];
+
+we can perform push and pop operations in the const array but we cannot reassign the values
+
+NESTED / MULTIDIMENTIONAL ARRAY
+
+array [array ]

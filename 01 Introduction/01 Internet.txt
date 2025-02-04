@@ -1,0 +1,15 @@
+Internet : Interconnected network of computers around the world
+
+Server : These are the computers which provide the information to the clients.
+
+Clients : These are the computers which ask for the information for the servers.
+
+> Every computer has its own unique IP address which are connected on the internet.
+> Request sent by the client 
+    first goes to the ISP (Internet Service Provider) e.g. Airtel, JIO.
+    then it goes to the DNS (Domain Name System), where the IP address of different servers are stored.
+    then the DNS returns the IP address to the ISP, which returns it to the client.
+    the client then establishes a connection with the respective server to get the information.
+
+> we can check the IP addresses of different servers on nslookup.com, with those IP address we can directly go to the server
+

@@ -1,0 +1,86 @@
+consle.log() this is the function to print some message
+
+01.html
+to link a JS file to HTML fiel write the path of the js file in the src attributte of the script tag
+
+TEMPELATE LITERALS
+
+they are used to add embedde expressions in a string
+
+console.log(`You pay ${a+b} rupees`)
+
+OPERATORS IN JS
+
+1. Arthematic (+ , - , * , /, %, **)
+2. unary (++, --)
+3. Assignment (=, +=, -=, *= , /=, %= etc.)
+4. Comparision
+5. Logical
+
+= is the assignment operator, it just means store the value of var1 in var2
+
+COMPARISION OPERATORS 
+
+> -> Greater than
+>= -> Greater than or equal to
+< -> Lesser than
+<= -> Lesser than or equal to
+== -> equal to
+!= -> not equal to
+
+console.log("5" == 5); this will be true as == only compares the vales not the type
+
+=== -> equal and type is same
+
+console.log("5" === 5); this will be false
+
+COMPARISION OF NON NUMBERS
+
+characters are coded in UNICODE format in JS
+
+'a' -> 61 , 'b' -> 62 ... 'z' -> 87
+'A' -> 41 , 'B' -> 42 ...
+
+console.log('P' < 'p'); -> this will be true
+
+02.js
+
+CONDITIONAL STATEMENTS
+
+1. if-else
+
+03.js 
+
+2. nested if-else
+
+
+LOGICAL OPERATORS
+
+&& -> Logical AND
+|| -> Logical OR
+! -> Logical NOT
+
+TRUTHY AND FALSY VALUES
+
+everything in JS is associated with a true or a false value in boolean context
+
+falsy value : false , 0 , -0 , On(Bigint value) , "" (empty value), null , undefined, NaN
+
+truthy values : Everything else
+
+05.js
+
+SWITCH STATEMENT
+
+for different cases
+
+
+06.html
+
+ALERT AND PROMPT
+
+Alerts display the message on the page
+alert("something is wrong)
+
+Prompt displays a dialog box that asks user for some input
+prompt("please enter your roll no.)

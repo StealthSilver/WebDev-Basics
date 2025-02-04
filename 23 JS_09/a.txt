@@ -1,0 +1,78 @@
+DOM -> Document Object Model
+
+the DOM represents a logical tree
+it allows us to manipulate and change webpage content(HTML elements)
+
+Document is an object generated automatically
+it stores the details related to HTML and CSS
+
+to check it consolr.dir(document) in the inspect window
+
+01.HTML
+
+getElementByID -> returns the element as an object ot null (if not found)
+
+getElementByClassName -> returns the element as an object ot null (if not found)
+
+getElementByTagName -> returns the element as an object ot null (if not found)
+
+querySelector -> allows to use any CSS selectors
+they are used to select single elements
+if there are multiple mathces then it will return the first paragraph
+
+
+for getting the complete collection we use
+querySelectorAll
+
+USING PROPERTIES AND METHODS
+
+innerText -> shows the visible text contained in the node
+this is the present shown on the screen
+
+innerHTML -> shows the complete markup
+shows the complete HTML tags
+
+textContent -> shows all the full text
+shows the format in which the text in present in the HTML file
+
+MANIPULATING ATTRIBUTES
+
+obj.getAttribute(attr) -> getters
+obj.SetAttribute(attr, val) -> setters
+
+MANIPULATING STYLE
+
+we can access the inline styles through this property
+we generally do not use it for styling
+
+USING CLASSLIST
+
+obj.classList 
+
+classList.add() -> to add new classes
+classList.remove() -> to remove classes
+classList.contains() -> to check if class exists
+classList.toggle() -> to toggle between add and remove
+
+NAVIGATION ON THE PAGE
+
+parent element
+
+children
+
+previousElementSibling / nextElementSibling
+
+ADDING ELEMENTS ON THE PAGE
+
+document.createElement('p)
+
+appendChild(element)
+append(element) -> adds at the last
+prepend(element) -> adds in the begining
+insertAdjecent(ahere, element)
+
+REMOVE ELEMENTS FROM PAGE
+
+removeChild(element)
+
+remove(element)

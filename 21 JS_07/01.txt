@@ -1,0 +1,54 @@
+01.js
+
+
+THIS KEYWORD 
+
+this is a keyword in JS that refers to an objectt that is executing the current piece of code
+
+the function cannot directly access the values in an object, so we use this
+
+the hights order object in js is the window object, every ekement is stored in it
+
+TRY AND CATCH 
+
+the try statement allows you to definae a block of code to be tested for errors while it is being executed
+the catch statement allows you to define a block of code to be executed, if an error occours in the try block.
+
+02.js
+
+ARROW FUNCTION 
+
+const func = (arg1, arg2..) => {function defination}
+
+they are assigned as variables or callback for highr degree functions
+
+in case of single argumentwe can write the arrow function without parenthesis
+
+IMPLICIT RETURN
+
+const mul = (a,b) => a*b;
+
+
+03.js
+
+SET TIMEOUT FUNCTION
+
+this is an inbuilt function and a part of window object
+
+setTimeout(funtion , timeout)
+
+this is used for APi and req, res 
+
+SET INTERVAL FUNCTION
+
+the set interval function keeps on executing the function again and again
+
+clearInterval(id); this is used to stop the function
+
+
+04.js
+
+THIS KEYWORD IN ARROW FUNCTION
+
+the scope for the function is the calling object
+for the arrow function lexical scope is there, it is same as the parent of hte function

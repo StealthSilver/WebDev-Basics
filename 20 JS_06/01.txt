@@ -1,0 +1,98 @@
+01.js
+
+FUNCTIONS
+
+they are a block of code which perform a perticular task in the code
+
+they are first defined and then called
+
+function func_Name(){
+    // do something
+}
+
+func_Name();
+
+Anythign can be embedded in a function
+
+02.js
+
+FUNCTIONS WITH ARGUMENTS
+
+argument is the value on which th function depends
+
+function(arg1, arg2, arg3...)[
+    // do something
+]
+
+03.js
+
+RETURN KEYWORD
+
+they are used to return some value from teh function
+
+function funcName(arg1, arg2 ..){
+    // do something
+    return val
+}
+
+the value from return is not printed, just spitted as an output
+
+anything written in the function after the return keyword is not executed
+
+function can return a single value, to return multiple values we convert them to array or objects
+
+
+04.js
+
+SCOPE 
+
+it determines the accessibility of variables, objects and functions ffrom different parts of the code
+
+1. Function -> cannot be used outside the function
+2. block -> variables declered inside a () block cannot be accessed outside hte block, does not work on var
+3. Lexical -> a variable defined outside a function can be accessed inside another function defines atert he variable decleration, the opp. is not true
+used in nested functions
+
+4. Global -> anything is accessible anywhere
+
+function scope is more specific than global scope
+
+05.js
+
+we can use hte variables in a function before initializing them, due to HOISTING
+
+
+06.js 
+
+FUNCTION EXPRESSIONS
+
+const variable = function(arg1, arg2 ..){
+    // do or return something
+}
+
+they are nameless functions
+
+
+07.js
+
+HIGHER ORDER FUNCTIONS
+
+a function that does one or both
+
+1. takes one it multiple functions as arguments
+2.returns a function
+
+
+08.js
+
+
+FACTORY FUNCTION
+
+it creates new functions
+
+09.js
+
+METHODS
+
+actions that can be performed on an object
+

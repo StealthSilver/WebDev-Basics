@@ -1,0 +1,75 @@
+01.html
+
+Grids
+grids is usd for 2d layout formation
+
+the parent is the grid container and only the direct chldren are the grid items
+mostly used for tabular data and 2d layouts
+
+
+grid model
+
+the lines which form the skeleton of he grid are grid lines
+the boxes formed by the lines are grid cells
+the rows and columnformed by multiple boxes are grid tracks
+
+we can check the model by using inspect in the browser
+
+grid template
+they define the line and track sizing
+
+grid-template-rows: defines the height of a row , write as many rows we want, the remaining space will filled by rest of the content
+
+grid-template-columns: defines the width of a column , write as many columns we want, the remaining space will filled by rest of the content
+
+for the remaining space we can use auto
+
+grid-template-rows : repeat(count, 1fr). we can repeat the dimentions and give the count of rows required
+grid-template-columns : repeat(count, 1fr). we can repeat the dimentions and give the count of columns required
+
+
+grid gaps -> for spaces between grid cells
+
+row gap -> gap between rows
+
+column gap -> gap between columns
+
+grid gap -> gap between cells
+
+grid columns
+
+defines the items starting and ending position inside the column
+
+grid-column-start -> line_number
+grid-column-end -> line_number
+
+grid-column : start_col / end_col
+grid-column : start_col / span number
+
+grid crow
+
+defines the items starting and ending position inside the row
+
+grid-row-start -> line_number
+grid-row-end -> line_number
+
+grid-row : start_row / end_row
+grid-row : start_row / span number
+
+grid properties
+
+for horizontal alignment
+1. justify-items : for the container
+2. justify-self : for the  item
+
+for vertical alignment
+1. align-items : for container
+2. align-self : for item
+
+for the same properties
+1. palce-items
+2. place-self
+
+by default the grid is a block element, but we can make inline-grid for the inline properties
+also we can similarly make an inline flexbox
+

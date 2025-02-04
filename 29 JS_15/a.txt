@@ -1,0 +1,103 @@
+API -> Application Programmable Interface
+
+in the response request cycle, sometimes instead of the server an API can return the data to change the complete web page or some part of it 
+API serves as the middleman between server and the client they help them interact
+The API which use the HTTP protocol are known as the Web APIs
+
+API return the data in form of JSON (JAVASCRIPT OBJECT NOTATION)
+
+API is an URL or ENDPOINT, when we request, it goes to the API ENDPOINT
+
+DIFFERENT APIs
+
+some API are paid, they require a key and some are free
+
+JSON 
+
+www.json.org
+this can be used for any backend
+
+before JSON there was XML
+JSON looks like JS objects, but here all the keys are strings
+
+undefined is not allowed
+
+to validate JSON jsonlint.com
+
+
+01.js 
+
+TO ACCESS DATA FROM JSON 
+
+1. JSON.parse( data ) Method
+to parse a string data into a JS object
+
+JSON -> JS Object
+
+2. JSON.stringify( json ) Method
+To parse a JS Object data into JSON
+
+JS Object -> JSON
+
+TESTING API REQUESTS 
+
+1. HOPSCOTCH
+2. POSTMAN
+
+
+AJAX
+
+Asynchronous JavaScript and XML
+
+this is the complete process through which we make an API call and get the data
+
+the complete process is Asynchronous
+
+the return is JSON but die to old convention it is XML
+
+HTTPS VERBS
+
+GET -> to get info
+POST -> to give info
+DELETE -> to delete info
+PUT -> to replcae info
+PATCH -> to stick info
+
+STATUS CODES
+
+200 -> OK
+404 -> Not Found (does not exist)
+400 -> Bad request 
+500 -> Internal Server Error
+
+
+100-199 -> information responses
+200-299 -> successful responses
+300-399 -> redirection responses
+400-499 -> client error responses
+500-599 -> server error responses
+
+
+Additional information in URL
+
+https://www.google.com/search?q=harry+potter
+
+?q= -> key
+harry+potter -> value
+
+HTTP headers
+
+used to chnegt the value types and other properties sent to the API
+generally metadata is sent
+
+02.js
+
+FETCH 
+
+before fetch XML HTTP REQUEST OBJECT was used
+
+fetch(url) -> this returns a promise in form of response
+
+03.js
+
+using fetch with async and await

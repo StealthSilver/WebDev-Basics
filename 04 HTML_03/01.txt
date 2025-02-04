@@ -1,0 +1,129 @@
+Tables in HTML
+
+there are 2 attributes: 
+row -  and column | 
+
+the heading of the table is table header
+
+<table> </table>
+this initializes the Table
+
+<caption> </caption>
+this will contain the table name / caption
+
+then there are three tags for the contents
+
+<tr> to display the table row
+<td> to display the table data
+<th> to diaplay the table header
+
+15.html
+semantics in Tables
+
+<thead> to wrap table header
+<tbody> to wrap table body
+<tfoot> to wrap table footer
+
+table foote is used for the sum and average type Tables
+
+
+16.html
+
+colspan and rowspan -> this tells the area occupied by the cell
+
+
+17.html
+
+forms in html
+<form></form>
+
+action attribute defines what action it should perform after the form is submitted
+
+input element
+
+it is used to create multiple form controls
+there are multiple types of inputs which can be hanged by the type attribute
+
+types of inputs
+
+<input> -> text, num, char box
+<input type = "text"> -> 
+<input type = "password">
+<input type = "number">
+<input type = "time">
+<input type = "color">
+
+18.html
+placeholder -> this is the text inside the box which contains the directions of the input
+label -> it represents a caption for the item in UI
+
+label are connected by the input by the for and id attributes
+
+label for = "a"
+input id = "a"
+
+19.html
+
+Buttons
+
+used to trigger the form action, the default behaviour of every button in the form is to perform the action.
+any button outside the form will not perform the action
+
+types 
+1. Submit -> it will be a action button
+2. button -> this will be a simple button
+3. reset -> this will reset all the data in the form
+
+input can also become a button by the type as button and the value will be the internals if the button
+input type = submit will make it a submit button 
+
+we generally do not prefer making the inputs as buttons 
+
+20.html
+
+name attribute
+name of the form control. submitted with the form as part of a name/value pair
+
+it changes the url in the backend, generally the names are small. the sensitive info is not passed as a url
+
+for the google search 
+www.google.com/search?q=apple this is the name
+
+21.html
+
+checkbox
+for boolean inputs
+by default it is uncheched, checked attribute makes it checked
+
+if checkbox is ticked then in the url age = on is passed else nothing is passed
+
+checkboxes can be grouped by the keeping the name attribute same.
+in checkbox even after grouping we can select multiple but not in radio buttons
+
+22.html
+
+for options they are provided. only one canbe selected at a time.
+if the name is same then they are grouped and only one can be selected at a time
+to send the name in the url , value attribute is used
+
+23.html
+
+dropdowns
+
+they are made by the select element
+
+selected attributes make the option preselected
+
+24.html
+
+range
+they give continuous range of values
+
+attributes are min and max which gives the end points for the range.
+step attribute decides the steps by which the data increases
+value attribute selects a default value
+
+25.html
+
+text area -> for the large text 
+rows and colums to give the size of placeholder

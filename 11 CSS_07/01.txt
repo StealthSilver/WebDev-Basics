@@ -1,0 +1,54 @@
+01.html
+
+Animations in css
+
+@keyframe Name_of_Animation{
+    from{
+        property : value
+        }
+    to{
+        property : value
+    }
+}
+
+this will create the blueprint of the Animations
+to implement it we use the following properties
+
+1. animation name 
+2. animation-duration
+3. animation-timing-function
+4. animation-delay
+5. animation-iteration-count -> numebr of times we want to loop the animation,  1, 2, 3 ...infinite
+6. animation-direction -> normal , reverse, alternate etc
+
+
+animation shorthand :
+animation : name | duration | function | delay | count | directon
+
+
+02.html
+
+media queries -> helps create a responsive website (changes according to the screen)
+
+media features - width(of viewport)
+there are other media features also
+
+@media(width: 400px){
+    div{
+        background-color:red;
+    }
+}
+
+we have min-width and max-width features
+also we have orientation according to orientation
+
+03.html
+
+z-index
+it decides the stack level of the elements
+it can be positive negative or zero
+
+overlapping elements with larget z index covert those with smalled z index
+by default the z index is 0
+
+for the elemnts with default position or static position we cannot set the z index

@@ -1,0 +1,17 @@
+to inspect the websites which do not allow inherent inspect mode
+go to some other tab -> open inspect -> then close the present tab
+
+overflow property, when the content does not fit the parent div then we decide wether to cut it or scroll it
+
+overflow: hidden means we cannot scroll -> used it for the complete page as it is static
+
+flex : 1 means give the complete vacant space to this div
+
+1rem = 16px
+
+to remove the default properties for the pre styled components we have to make
+appearence : none
+
+for the appearence of the progress bar check:
+
+quirksmode.org

@@ -1,0 +1,71 @@
+07.html
+Inline and Block elements
+
+block elements take the complete width of the screen. a new block element starts from the new line
+e.g. h1, h2, p, div
+
+inline elements just occupy the space required horizontally
+e.g. a, img, i, b, u
+
+08.html
+
+div is the content division element. it is used to hold other HTML elements
+it is a block element
+
+09.html
+
+span element is also used to hold other elements. but it is an inline element
+
+10.html
+
+hr tag is used for creating a horizontal line 
+just like the line break br tag it is used for seperation
+
+11.html
+
+sub and sup tag
+
+this is the subscript and superscrit=pt tag. they are used in formulas, chemical equations and other labels
+
+sub tag is for subscript
+sup is for superscript
+
+12.html
+
+semantic Markup
+
+there are tags which categorize the elements inside them.
+
+there are two types of tags Semantic and non Semantic
+the semantic tags show what type of content is there inside
+
+e.g. header , footer , section, p , img
+
+other tags are non semantic tags
+
+e.g. div , span
+
+semantic markup helps in SEO (Search Engine Optimization), they make the code meaningful and also it helps in screen readers
+
+header tag -> it contains hte title or name of the website
+main tag -> it contains the main content of the website
+footer tag -> it contains the contact info or hte copyright banner
+nav tag -> it is used for navigation
+article tag -> used for testimonials and news
+section tag -> it is used to contain the related content
+aside tag -> it is used to contain the related links
+
+
+emmets -> emmet.io 
+they provide the abbrebriations for shortning the code. 
+
+e,g, for childs 
+
+p>div>ul
+
+for multiplication
+
+ul>li*5
+
+we use the HTML5 which is used for the latest wb technologies, it consists od new upgrades on HTML and also the JS APIs
+HTML works on the HTML standard, this doc is present in browsers, and gets updated in browsers for smooth rndering

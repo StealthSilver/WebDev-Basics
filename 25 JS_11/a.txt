@@ -1,0 +1,11 @@
+01.html
+
+EVENT BUBBLING
+
+event listners for nested eleemtns
+
+EVENT DELEGATION
+
+if we want to trigger something for the child element, we trigger it for the parent element
+
+event.target tells what is the target for which the event is triggered

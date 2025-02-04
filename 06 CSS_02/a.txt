@@ -1,0 +1,96 @@
+01.html
+all the selectors until now are element selectors
+
+*{ } -> this is the universal selector, it will apply to the whole document
+this is generally not used in production 
+
+h3{ } -> this is the element selector, applies changes to all the elements of this type on the page
+
+h1, h3{ } -> to give the same property to multiple elements we can seperate them by commas
+
+#myId { } -> id selector selects an element based on the value of the element's id attribute
+we give one id to one element only
+
+.myClass { } -> class selector selects an element based in their class attribute
+
+div p{ } -> descendet selector selects all the decendents of the parent
+
+p + h3 { } -> Adjecent sibling combinator all the elements which comes after the element prior to it on the same level
+
+span > button { } -> child combinator selects all the elements which are direct children of the parent. just one level below
+in child selector we can just select one level down
+
+input[attr = "value"] -> attribute selector selects elements based on the presence or value of a given attribute
+
+
+02.html
+
+Pseudo class
+A keyword added to a selector that specifies a special state of the selected elements
+
+:hover
+when cursor is hovered then this applies
+
+:active
+when anything is clicked this applies
+
+:checked
+when the radio button or checkbox is active
+
+:nth-of-type
+when some specific elements are triggered with mathematical relation
+
+Pseudo element
+A keyword added to a selector that lets you style a specific part of hte selected elements
+
+::first-letter
+selects the first letter of the element
+
+::first-line
+selects the first line of the element
+
+::selection
+selects the seletion portion from the cursors
+
+03.html
+
+the CSS cascade algorithm selects the CSS declerations in order to determine the correct values for CSS properties
+
+it applies on the same element
+
+h3:{bqckground-color:pink;}
+h3:{bqckground-color:red;}
+
+the background color will be red
+
+Selector Specificity
+
+it is an algorithm that calculates the weight that is applied to a given CSS declerations
+
+id 
+class, attribute and pseudo-class
+element and pseudo-element
+
+1. id > class > element
+
+2. more selectors > less selectors
+
+3. if specificity is same then we check cascading
+
+4. inline styles will be given top priority
+
+!important -> this is used for the top most priority of the css
+
+04.html
+
+Inheritance in CSS
+
+if a property is applied to a parent or grandparents, it translates to the children
+some properties like width , height and border etc. are not inherited
+
+input boxes and buttons do not inherit features from the parents by default
+
+input{background-color : inherit} this must be added to inherit
+
+note : we can manipulate the CSS in a website in the browser, inspect option and styles tasb
+for checking what colors will suit on the website we can check them of online color palletes , like coolors and canva and mycolor.space

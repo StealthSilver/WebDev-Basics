@@ -1,0 +1,44 @@
+O1.js
+
+JS OBJECT LITERAL
+
+they are used to store keyed collections and complex entities
+
+property => (key, value) pair
+Objects are collections of properties.
+
+there is no order in the Objects
+generally objects are made by the const keyword, as the refrence of the object must not be changed, but we can change the key, value pairs
+
+we can store arrays in objects
+
+GET VALUES
+
+object_name["key"] or object_name.key
+
+if we need to access variables then we do not use the dot operator
+
+JS Automatically onverts object keys to strings
+Even if we make the number as a key, the number will be converted into string
+
+we do not use double quotes for the keys
+
+02.js
+
+change and add value
+
+nested objects
+
+
+array of objects
+
+03.js
+
+MATHS OBJECTS 
+
+these are used for mathematic properties and methods
+
+properties -> PI, E 
+methods -> absolute , power , floor , ceiling
+
+Math.random -> gives random values between [0 , 1)

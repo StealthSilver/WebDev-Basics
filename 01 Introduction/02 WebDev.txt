@@ -1,0 +1,36 @@
+Website : a website is bunch of HTML, CSS and JS code rendering on the page. 
+
+Request-Response Cycle
+
+> When we request a search engine to navigate to a website by its domain name.
+    then the request is sent to the respective server of that domain.
+    the server returns the HTML, CSS and JS code in response.
+    that HTML, CSS and JS code is rendered on the browser and shows the UI of the website.
+
+> the code is transferred is in form of packets.
+
+On any website the page source contains the codebase
+the inspect window makes that code packet readable and customiable
+
+FrontEnd Technologies : the UI / Client part
+
+1. HTML (Hyper Text Markup Language)
+   it provides the structure of skeleton of the website
+
+2. CSS (Cascading style sheets)
+   it provides the styling, size, alignment and asthetics to the website
+
+3. JS (JavaScript)
+   it provides the functionality to the website
+
+BackEnd : the server side code
+
+Learnings:
+
+Frontend: HTML, CSS, JS, Bootstrap, Tailwind 
+
+Backend: Express, NodeJS
+
+Database: Mongo, SQL
+
+Framework: React

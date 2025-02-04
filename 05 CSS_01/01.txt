@@ -1,0 +1,117 @@
+CSS -> cascading style sheets
+
+it is a language used for styling the skeleton formed by the HTML files
+we add properties from the CSS to style the document
+
+to remove the CSS from any webpage go to inspect and delete the head tags
+
+
+Basic format for CSS
+
+selector {
+    property : value;
+}
+
+selector is the HTML element which needs to be changes
+property is the styling property
+value is the unit given to the CSS property
+
+01.HTML
+
+there are three options to add CSS in the document
+
+1. inline style -> adding the CSS in the HTML file itself in the perticular element where the styles are needed to be added
+we do not use inline styles as they promote repetition of the code 
+
+
+02.html
+
+2. using the style tag
+inside the head tag we can create a style tag and add the property value pairs
+
+we do not use this format as it gives styles to only one file of the document. there can be multiple files so there will be repetition
+
+03.html
+3. using the style.css file
+
+we write the styles in a seperate .css file and link it with the HTML file
+we use the link tag in the head, 
+<link rel= "stylesheet" href = "styles.css">
+we use this format for styling
+
+
+04.html
+
+color property
+
+sets the foreground color of the element.
+we use three color formats for the value
+1. name of the color : there are around 140 colors having names
+2. RGB value : red (255,0,0) , green (0,255,0) , blue (0,0,255) , white (255,255,255), black(0,0,0) , yellow (255,255,0) , magenta (255, 0 ,255) , cyan(0,255,255)
+3. HEX code : 0 to f charactes are given which make the hexadecimal values
+e.g. ffffff , 000000 
+also if htere is repetition we can write the short form fff , 000
+
+color : #000000;
+
+
+05.HTML
+
+background-color property
+
+this is used to change the background color of the element
+we can also set the background color with the background property for some elements.
+
+06.html
+
+text properties
+
+1. text align -> this is for the alignment of text
+the allignment is adjusted wrt parent element
+
+for the left and right alignment we can use start and end too
+
+2. font weight -> this is for changing the width of the font, boldness of text
+100 - 900 range with increasing boldness
+normal is 400
+
+font weight bolder and lighter are used wrt parent element
+
+3. text-decoration -> underline, overline and sutting
+
+it is used to set the appearence of decorative lines
+underline, overline and line-through
+it is mainly used to remove the default underline of the anchor tag
+
+
+4. line height -> space between two line rows
+it is by default normal, writing any float value will make the line height n time of that number n 
+e.g. linehight = 2.5 means 2.5 times if the normal.
+other units are em, pixel and rem
+
+5. letter spacing -> space between characters
+letter spacing is increased in pixels
+
+6. font-size -> size of text
+
+units in font size are of two types -> absolute and relative
+
+Absolute units -> px, pt, pc, cm, mm, in
+1in = 96px
+px is not used for responsive websites
+
+Relative units -> %, em, rem, ch, vh, vw etc.
+used for responsive sites
+% -> percent of the page
+em -> relative to the current ratio of the page
+rem -> relative to the parent ratio
+
+
+Font family
+it specifies a prioritized list of one or more font family names
+cssfontstack.com -> this site has fonts and their names, it also gives the OS proportions of the font family
+
+if some font is not supported by some browser then the alternative or the default font will be shown
+we generally create a list for all the fonts due to uneven availability
+
+

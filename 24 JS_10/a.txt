@@ -1,0 +1,56 @@
+01.html
+
+DOM EVENTS
+events are signals that something has occoured. (user inputs / own actions)
+
+creating the inline events is not optimal as there will be repetition
+
+02.html
+
+onClick (when the element is clicked)
+
+onMouseEnter (when the pointer enters the respective area)
+
+
+03.html
+
+EVENT LISTENER
+
+addEventListener
+
+element.addEventListenet(event, callback)
+
+04.html
+THIS IN EVENT LISTNER
+
+then this is used in a callback of event handler of something, it refers to that something
+
+used when we want to use a singl event handler on multiple elements
+
+05.html
+
+KEYBOARD EVENTS
+ keydown
+ keyup
+
+06.html
+
+FORM EVENTS
+
+to prevent the default action done by the form we can use,
+
+event.preventDefault()
+
+EXTRACTING FORM DATA
+
+07.html
+
+CHANGE EVENT
+
+the change event occouras when the value of an element has been changed (only works on <input> , <textarea> , <select> elements);
+
+INPUT EVENT
+
+the input event triggers when the value on an <input> , <select> or <textarea> element has ben changed
+
+non character keys do not change the input event

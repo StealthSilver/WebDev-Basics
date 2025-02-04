@@ -1,0 +1,84 @@
+01.html
+
+Flexbox: it is a one-dimentioanl layout method for arranging items in rows or columns
+it is used in responsive websites
+
+flex model -> for every element present on the page if it is a flexbox then two axes pass through it 
+1. main axis 
+2. cross axis
+they depend upon the direction
+
+the parent is the flex container and the children are the flex items
+
+display:flex -> it restricts teh elements to fit into the container
+the default direction of the flexbox is row, we can change it to column to fit the elements vertically
+
+
+flex direction:
+
+row -> main axis left to right
+column -> main axis top to bottom
+row-reverse -> main axis right to left
+column-reverse -> main axis bottom to up
+
+justify content 
+tells us how to distribute spaces between and around the content items along the main axis
+
+flex-start -> to the starting of the main axis
+flex-end -> to the end of the main axis
+center -> to the center of the flex box
+space-between -> extra space comes in between if it is present
+space-around -> the space in between will distribute evenly in left and right
+space-evenly -> all the spaces , the between and end are equal
+
+flex wrap
+
+sets whether flex items are forced onto one line or can wrap onto multiple lines
+by default it is no wrap
+
+flex-wrap -> nowrap -> 
+flex-wrap -> wrap ->
+flex-wrap -> wrap-reverse ->
+
+align items -> align the items wrt the cross axis
+
+flex-start -> starting of the cross axis
+flex-end -> end of the cross axis
+center -> center wrt cross axis
+baseline -> hte content comes at the same baseline
+divs will arrange acording to the content
+
+align content
+distribution of space between and around content items along a flexbox cross axis
+
+align-content -> flex-start / flex-end / center
+align-content -> space-between / space-around/ space-evenly
+align-content -> baseline
+
+align self
+
+align an individual item along the cross axis
+it is higher priority that align items
+
+align self :
+flex-start -> starting of the cross axis
+flex-end -> end of the cross axis
+center -> center of the cross axis
+baseline -> base of the content line
+
+flex sizing
+to increase and decrease the size of elements in the flexbox
+
+flex-basis -> it sets the initial main size of the flex item
+
+flex-grow -> if there is remaining space in the flex container then how should it be assigned to the flex item's main size
+default value is 1
+
+flex-shorthand
+
+flex-grow|flex-shrink|flex-basis
+flex-grow|flex-basis
+flex-grow
+
+flexbox games :
+https://codingfantasy.com/games/flexboxadventure

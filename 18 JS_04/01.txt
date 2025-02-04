@@ -1,0 +1,63 @@
+01.js
+
+LOOPS IN JS
+
+used for iterate a piece of compared
+
+
+FOR LOOPS
+
+for(initialization , condition , updation){
+    // do something
+}
+
+
+02.js
+INFINITE LOOPS
+
+thw infinite loops take up all the memory, do not introduce them
+
+for(let i = 1; i<=5; i++){
+
+}
+
+for(let i = 1; i>=0; i--){
+    
+}
+
+for(let i = 1; ;i++){
+    
+}
+
+NESTED LOOPS
+
+for(){
+    for(){
+
+    }
+}
+
+
+04.js
+
+WHILE LOOPS
+
+everything that can be done by a for loop can be done by a while loop
+
+while(condition){
+    // do something
+}
+
+05.js
+
+BREAK KEYWORD
+
+it terminates the loop and gets out of 
+
+06.js
+
+FOR OF LOOP
+
+for(element of collection){
+    // do something
+}

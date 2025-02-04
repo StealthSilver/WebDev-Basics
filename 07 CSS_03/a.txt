@@ -1,0 +1,72 @@
+01.html
+
+Box Model
+all the elements in the browser are interpreted as a box in html
+
+Height : it sets the content area height of the elements
+a div wothout the content is zero
+the height is set for the content area not for the whole div
+
+Width: it sets the width area of the box
+
+border : elements border
+
+1. border-width
+2. border-style
+3. border-color
+
+border-radius
+used to round the corners of the border
+border-radius = 50% will make a circular shape
+
+padding : it is the area between the border and content
+
+padding: 20px 40px 100px 100px;
+this is written for top right bottom left -> clockwise direction
+
+margin :
+this is the space between two elements (boxes), it is the space outside the border
+heading element is given some default margin, to remove it set the margin to 0
+
+02.html
+Display:
+it controls that if an element will be treated as an inline element or block element
+
+Block : 
+1. always start a new line
+2. take up as much horizontal space as possible (the full width of the browser window if there is no container)
+3. will respect width and height css property
+4. horizontal and vertical margins both work
+
+Inline :
+1. do not start on a new line
+2. take up as much horizontal space as required by the content.
+3. Does not accept the width and the height property
+4. margins work horizontally but not vertically
+5. padding works on all sides. but the top and bottom may overlap other elements
+
+03.html
+Inline Block:
+this will keep the styling according to block elements but makes the element inline
+
+display none will hide the elements
+
+04.html
+Relative Units in css
+
+1. Percentage : it isoften used to define a size relative to an elements parent object
+
+
+05.html
+
+2.em: text property relative to the parent
+      other properties relative to itself
+
+06.html
+in ems ther can be a snowballing effect seen for the nested elements : here small push creates drastic and changes of major intensity
+
+07.html
+rem : font size of the root element size
+
+li (list items) have their display property set to "list-item" by default which makes them a bulleted list item
+when this property is reset by you ti  "inline", then the bullet point also dissapear. In a way, we override the default settings with our CSS

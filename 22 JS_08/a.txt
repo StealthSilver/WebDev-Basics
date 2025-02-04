@@ -1,0 +1,43 @@
+01.js
+
+FOR EACH -> this is used to perform some task over all the elements of the array
+arr.forEach(function)
+
+MAP -> creates a new arraay after processing some operations on the previous array
+arr.map(function)
+
+FILTER -> returns a new array based in some onditions
+arr.filter(function)
+
+02.js
+
+EVERY -> returns true if every element if the array returns true, else gives false
+arr.every(function)
+
+SOME -> returns true is some element of the array is true, returns false if all the elements are false
+arr.some(function)
+
+REDUCE -> reduces teh array to a single value
+arr.reduce(reducer function with two variables for(acumulator , element));
+
+03.js
+
+DEFAULT PARAMETER
+
+giving a default value to the arguments
+
+SPREAD
+
+expands an iterable into multiple values
+
+iterables are -> array , string
+
+04.js
+
+REST 
+
+Allows a function to take an indefinate number of argumants anf bundle them in an array
+
+DESTRUCTURING
+
+storing values of array into multiple variables
